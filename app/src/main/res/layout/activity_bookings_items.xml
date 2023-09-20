@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txv_tell"
-                    android:text="P.o BOX 51548 Makueni-Kaewa"
+                    android:text="P.o BOX 51548 Mombasa-Kenya"
                     android:textColor="@color/black" />
                 <TextView
                     android:id="@+id/txv_names"

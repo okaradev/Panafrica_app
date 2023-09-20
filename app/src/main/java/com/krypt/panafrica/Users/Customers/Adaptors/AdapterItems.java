@@ -52,7 +52,7 @@ public class AdapterItems extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             view.txv_price.setText(o.getPrice() + " Kshs ");
             //  view.txv_days.setText("No of Days " + "55");
             view.txv_subTotal.setText("Subtotal KES " + o.getSubTotal());
-            view.txv_capacity.setText("Capacity " + o.getCapacity());
+            view.txv_capacity.setText("Weight " + o.getCapacity());
 
 
         }

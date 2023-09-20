@@ -131,7 +131,7 @@
                     android:layout_marginLeft="25sp"
                     android:layout_marginRight="25sp"
                     android:layout_marginBottom="25sp"
-                    android:hint="*Why booking is rejected"
+                    android:hint="*Why transaction is rejected"
                     app:boxBackgroundColor="@null">
 
                     <com.google.android.material.textfield.TextInputEditText

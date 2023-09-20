@@ -318,7 +318,7 @@ public class Dashboard extends AppCompatActivity {
             navigationView.getMenu().findItem(R.id.feedbackf).setVisible(true);
         }
         if (user.getUser_type().equals("Service manager")) {
-            navigationView.getMenu().findItem(R.id.tech_assign).setVisible(true);
+        //    navigationView.getMenu().findItem(R.id.tech_assign).setVisible(true);
 
             navigationView.getMenu().findItem(R.id.nav_shipping).setVisible(true);
             navigationView.getMenu().findItem(R.id.nav_delivered_).setVisible(true);
@@ -328,7 +328,7 @@ public class Dashboard extends AppCompatActivity {
             //   navigationView.getMenu().findItem(R.id.id_trainee).setVisible(true);
             navigationView.getMenu().findItem(R.id.servicefeedback).setVisible(true);
             navigationView.getMenu().findItem(R.id.servicetodel).setVisible(true);
-            navigationView.getMenu().findItem(R.id.supervisor_assign).setVisible(true);
+          //  navigationView.getMenu().findItem(R.id.supervisor_assign).setVisible(true);
 
 
 

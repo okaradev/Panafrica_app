@@ -57,7 +57,8 @@ public class AdptBookings extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             view.txv_bookingID.setText("ordering No " + o.getBookingNo());
             view.txv_cash.setText("Cash " + o.getBookingCost() + " KES");
             view.txv_mpesaCode.setText("Mpesa code " + o.getMpesaCode());
-            view.txv_bookingDate.setText("Date " + o.getBookingDate());
+            //view.txv_bookingDate.setText("Date " + o.getBookingDate());
+            view.txv_bookingDate.setVisibility(View.GONE);
             view.txv_bookingStatus.setText("Status " + o.getBookingStatus());
             view.txv_dateToDeliver.setText("Delivery date " + o.getDateToDeliver());
 

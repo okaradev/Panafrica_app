@@ -31,7 +31,7 @@
 
         <item
             android:id="@+id/servicetodel"
-            android:title="Services to deliver " />
+            android:title="Goods to deliver " />
         <item
             android:id="@+id/tech_assign"
             android:title="Assign Tech" />

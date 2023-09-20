@@ -92,7 +92,7 @@ public class PaymentFragment extends Fragment {
                                     String names =user.getFirstname()+' '+user.getLastname();
                                     String mpesaCode = jsn.getString("mpesaCode");
                                     String bookingDate = jsn.getString("bookingDate");
-                                    String dateToDeliver = jsn.getString("dateToDeliver");
+                                    String dateToDeliver = jsn.getString("dateToDelivery");
                                     String bookingStatus = jsn.getString("bookingStatus");
                                     String deliveryCost = jsn.getString("deliveryCost");
                                     String bookingRemarks = jsn.getString("bookingRemarks");

@@ -460,7 +460,7 @@ public class CheckOut extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("clientID", user.getUserID().toString());
+                params.put("clientID", user.getUserID());
                 params.put("countyID", countyID);
                 params.put("townName", townName);
                 params.put("address", address);

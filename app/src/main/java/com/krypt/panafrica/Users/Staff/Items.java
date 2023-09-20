@@ -108,7 +108,7 @@ public class Items extends AppCompatActivity {
         recyclerView.setLayoutManager(mLayoutManager);
 
 
-        if (in.getStringExtra("bookingStatus").equals("Pending approval")) {
+        if (in.getStringExtra("bookingStatus").equals("pending")) {
             btn_reject.setVisibility(View.VISIBLE);
             edt_remark.setVisibility(View.VISIBLE);
             btn_approve.setVisibility(View.VISIBLE);
@@ -289,7 +289,7 @@ public class Items extends AppCompatActivity {
 
         final String remarks = edt_remark.getText().toString().trim();
         if (TextUtils.isEmpty(remarks)) {
-            Toast toast = Toast.makeText(getApplicationContext(), "Please write a remark why booking is rejected", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "Please write a remark why transaction is rejected", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.TOP, 0, 500);
             toast.show();
             progressBarSubmit.setVisibility(View.GONE);
